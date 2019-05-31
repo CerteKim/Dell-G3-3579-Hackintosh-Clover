@@ -7,6 +7,7 @@ My Clover EFI folder backup
 * GTX1060 max-q 
 * Intel Wireless AC9462 
 * ALC236 
+* Intel 600P
 
 # Whats Working?
 * UHD630 
