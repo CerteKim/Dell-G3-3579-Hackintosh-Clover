@@ -1,4 +1,4 @@
-# Dell-G3-3579-Hackintosh-EFI
+# Dell-G3-3579-Hackintosh-Clover
 My Clover EFI folder backup
 
 # Hardware Configuration
