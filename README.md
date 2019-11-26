@@ -1,7 +1,7 @@
 # Dell-G3-3579-Hackintosh-Clover
 My Clover EFI folder backup
 
-# Moved to [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore)
+**My OpenCore EFI here** [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore)
 
 ## Hardware Configuration
 * i7 8750H 
