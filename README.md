@@ -10,20 +10,20 @@ My Clover EFI folder backup
 * Intel Wireless AC9462 
 * ALC236 
 * Intel 600P
+* Thunderbolt
 
 ## Whats Working?
-* UHD630 
-* Battery 
+* 10.13.6 ~ 10.14.x Boot
+* iGPU 
 * Screen Backlight 
-* Bluetooth 
-* Audio(with bugs) 
+* Audio (layout=11)
 * USB Type-c HDMI 
 * WebCam 
 
-## Untest or Not Working
-* Thunderbolt 
-* AC9462 WIFI 
-* GTX1060(blocked) 
-
-## Known Issue
-* ALC236 Audio lag
+## Not Working
+* Trackpad with VoodooI2C (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
+* Bluetooth (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
+* Thunderbolt (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
+* Wifi 
+* dGPU(blocked) 
+* Headphone Jack
