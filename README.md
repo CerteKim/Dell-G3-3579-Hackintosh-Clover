@@ -7,23 +7,24 @@ My Clover EFI folder backup
 * i7 8750H 
 * Iris UHD630 
 * GTX1060 max-q 
-* Intel Wireless AC9462 
+* ~~Intel Wireless AC9462~~ Replace with DW1820A 
 * ALC236 
 * Intel 600P
 * Thunderbolt
 
 ## Whats Working?
-* 10.13.6 ~ 10.14.x Boot
+* 10.13.6 ~ 10.15.x
 * iGPU 
-* Screen Backlight 
+* Backlight 
 * Audio (layout=11)
 * USB Type-c HDMI 
 * WebCam 
 
+## Issue
+Intel 600P makes system not stable, because IONVMeFamily.kext doesn't natively support my drive.
+
 ## Not Working
-* Trackpad with VoodooI2C (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
-* Bluetooth (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
-* Thunderbolt (Will be merged from [Dell-G3-3579-Hackintosh-OpenCore](https://github.com/CerteKim/Dell-G3-3579-Hackintosh-OpenCore))
-* Wifi 
-* dGPU(blocked) 
-* Headphone Jack
+* dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))
+
+## Unknown
+* Thunderbolt (Still working on fixing SSDT, and needs to be verified)
