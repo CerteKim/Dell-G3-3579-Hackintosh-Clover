@@ -18,6 +18,7 @@ My Clover EFI folder backup
 * Backlight 
 * Audio (layout=11)
 * USB Type-c HDMI 
+* Trackpad with VoodooI2C 
 * WebCam 
 
 ## Issue
