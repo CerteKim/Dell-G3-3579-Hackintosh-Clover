@@ -293,6 +293,8 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>Inject</key>
+		<false/>
 		<key>LANInjection</key>
 		<true/>
 		<key>Properties</key>
@@ -319,7 +321,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>DwAAAA==</data>
+				<integer>15</integer>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
@@ -330,6 +332,8 @@
 				<key>device-id</key>
 				<data>mz4AAA==</data>
 				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
+				<key>enable-cfl-backlight-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
@@ -489,23 +493,9 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>MLB</key>
-		<string>C02807701QXJP4FJC</string>
-		<key>ROM</key>
-		<data>gNtgkKdI</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>#Mobile</key>
-		<true/>
-		<key>#Trust</key>
-		<true/>
-		<key>BIOSReleaseDate</key>
-		<string>09/17/2019</string>
-		<key>BIOSVendor</key>
-		<string></string>
-		<key>BIOSVersion</key>
-		<string>1037.0.78.0.0</string>
 		<key>BiosReleaseDate</key>
 		<string>01/05/2020</string>
 		<key>BiosVendor</key>
@@ -533,15 +523,17 @@
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0x37E10FFC</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0x3FFF1FFF</string>
+		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
+		<key>NoRomInfo</key>
+		<false/>
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
@@ -555,20 +547,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>#BacklightLevel</key>
-		<string>0x0501</string>
-		<key>#CustomUUID</key>
-		<string>511CE201-1000-4000-9999-010203040506</string>
-		<key>#NoCaches</key>
-		<false/>
-		<key>#NvidiaWeb</key>
-		<false/>
-		<key>CustomUUID</key>
-		<string>07A55034-3B4E-55FC-8F12-83E3D4FD7FA2</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
-		<key>InjectSystemID</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
