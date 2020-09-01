@@ -15,7 +15,7 @@ setup_var 0x8C9 0x2 //Set DVMT Pre-Allocated to 64M
 * GTX1060 max-q 
 * ~~Intel Wireless AC9462~~ Replace with DW1820A 
 * ALC236 
-* Intel 600P
+* ~~Intel 600P~~ Replace with SM961
 * Thunderbolt
 
 ## Whats Working?
@@ -27,11 +27,9 @@ setup_var 0x8C9 0x2 //Set DVMT Pre-Allocated to 64M
 * Trackpad with VoodooI2C 
 * WebCam 
 
-## Issue
-Intel 600P makes system not stable, because IONVMeFamily.kext doesn't natively support my drive.
-
 ## Not Working
 * dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))
 
-## Unknown
-* Thunderbolt (Still working on fixing SSDT, and needs to be verified)
+## Todo
+- [ ] Boot macOS Big Sur
+- [ ] Boot Arch Linux with EFISTUB
