@@ -1,3 +1,6 @@
+# EOL
+My Laptop is broken. This repo is End-of-life.
+
 # Dell-G3-3579-Hackintosh-Clover
 My Clover EFI folder backup
 
@@ -29,7 +32,3 @@ setup_var 0x8C9 0x2 //Set DVMT Pre-Allocated to 64M
 
 ## Not Working
 * dGPU (Disabled by SSDT, I will try to make it work on my [another project](https://github.com/CerteKim/Dell-G3-3579-HackintoVM))
-
-## Todo
-- [ ] Boot macOS Big Sur
-- [ ] Boot Arch Linux with EFISTUB
